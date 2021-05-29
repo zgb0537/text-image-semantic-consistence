@@ -133,3 +133,11 @@ caffe/python
 
 depending on whether your export is already under home/username
 That's all there is to installing caffe.
+
+
+
+
+ERROS
+make pycaffe
+python/caffe/_caffe.cpp:1:10: fatal error: 'Python.h' file not found
+https://www.cnpython.com/qa/56501
