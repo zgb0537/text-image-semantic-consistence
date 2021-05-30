@@ -141,3 +141,8 @@ ERROS
 make pycaffe
 python/caffe/_caffe.cpp:1:10: fatal error: 'Python.h' file not found
 https://www.cnpython.com/qa/56501
+
+make runtest
+make: .build_release/tools/caffe: Command not found  
+build文件夹内未生成需要的文件，每次make clean 后都需要重新make all，build文件夹内才会有需要的文件。
+
