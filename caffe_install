@@ -146,3 +146,7 @@ make runtest
 make: .build_release/tools/caffe: Command not found  
 build文件夹内未生成需要的文件，每次make clean 后都需要重新make all，build文件夹内才会有需要的文件。
 
+libhdf5_hl.so.100  无法找到问题,所以记录下
+sudo cp -s /home/zgb05/anaconda3/pkgs/hdf5-1.10.1-h9caa474_1/lib/libhdf5_hl.so.100  /usr/lib/libhdf5_hl.so.100
+
+
